@@ -1,4 +1,4 @@
-class AddUpdatedAtFields < ActiveRecord::Migration
+class AddUpdatedAtFields < ActiveRecord::Migration[4.2]
   def change
     add_column :users, :updated_at, :datetime
     add_column :items, :updated_at, :datetime

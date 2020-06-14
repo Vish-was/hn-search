@@ -1,4 +1,4 @@
-class AvgIsAFloat < ActiveRecord::Migration
+class AvgIsAFloat < ActiveRecord::Migration[4.2]
   def up
     change_column :users, :avg, :float
   end

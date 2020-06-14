@@ -55,6 +55,7 @@ group :development do
   gem 'spring-commands-rspec'
   gem 'sqlite3', '~> 1.3.0'
   gem 'terminal-notifier-guard'
+  gem 'neography'
 end
 group :production do
   gem 'lograge'
